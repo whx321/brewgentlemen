@@ -1,0 +1,608 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stand",
+				"stand-alone"
+			],
+			[
+				"reset",
+				"resetPageHeights"
+			],
+			[
+				"inn",
+				"innerHeight"
+			],
+			[
+				"page",
+				"pageHeight"
+			],
+			[
+				"has",
+				"hashName"
+			],
+			[
+				"ver",
+				"verification-background"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"wh",
+				"wheelDelta"
+			],
+			[
+				"geet",
+				"getCurrentPageId"
+			],
+			[
+				"blog",
+				"blog-frame"
+			],
+			[
+				"iframe",
+				"iframewindow"
+			],
+			[
+				"if",
+				"iframewindow"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"load",
+				"loadAjaxPages"
+			],
+			[
+				"full",
+				"full-page-div"
+			],
+			[
+				"center",
+				"centered-div"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"hash",
+				"hashName"
+			],
+			[
+				"go",
+				"goTo"
+			],
+			[
+				"pag",
+				"pageId"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"left-a",
+				"left-arrow-black"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"b",
+				"rgba()"
+			],
+			[
+				"html",
+				"htmlToSwap"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"brewery",
+				"brewery-map"
+			],
+			[
+				"proce",
+				"processing"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"OP",
+				"optionValue"
+			],
+			[
+				"cus",
+				"custom-select-option"
+			],
+			[
+				"custom-",
+				"custom-select-area"
+			],
+			[
+				"custom-se",
+				"custom-select-trigger"
+			],
+			[
+				"opt",
+				"optionValue"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"shirt",
+				"shirtColor"
+			],
+			[
+				"add",
+				"add-item-button"
+			],
+			[
+				"te",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "brewgent-proj.sublime-project",
+			"settings":
+			{
+				"buffer_size": 302,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/standalone.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content/rpf.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/about/index.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/beer/index.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/brewery/index.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/connect/index.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/rpf/index.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content-css/rpf.css",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content-css/connect.css",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content-js/connect.js",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content/connect.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/shop/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content/connect.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content/rpf.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/js/vendor/jquery-1.9.0.min.js",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/css/font-awesome.min.css",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content/shop.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content/brewery.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content/beer.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content/about.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content-css/beer.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-js/connect.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-js/brewery.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-css/connect.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-css/rpf.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-js/rpf.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/RPF/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/css/main.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-js/beer.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content/beer.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-css/beer.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/css/killercarousel.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content/about.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/mobile/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/brewgent-proj.sublime-project",
+		"/Users/abenavid/Documents/BrewGentlemen.com/css/font-awesome.min.css",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content-css/brewery.css",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content-css/about.css",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content/blog.html",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content-js/blog.js",
+		"/Users/abenavid/Documents/M.BrewGentlemen.com/content-js/brewery.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content/brewery.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/about/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/beer/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/brewery/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/connect/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/shop/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/404.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/rnd-nav.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/css/normalize.css",
+		"/Users/abenavid/Downloads/futura_std_medium_www.dailywf.com_/futura_std_medium/package.json",
+		"/Users/abenavid/Documents/BrewGentlemen.com/js/main.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content/blog.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-js/blog.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/shop.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/connect.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content/shop.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/js/vendor/minicart.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-js/shop.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/css/jquery.fancybox.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/js/vendor/jquery.fancybox.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-js/about.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-css/blog.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-css/brewery.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-css/shop.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-css/about.css",
+		"/Users/abenavid/Documents/BrewGentlemen.com/brewery.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/beer.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/about.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/rnd/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/rnd.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/rnd-nav/index.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content/story.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/content-js/story.js",
+		"/Users/abenavid/Documents/BrewGentlemen.com/js/vendor/killercarousel.js",
+		"/Users/abenavid/Documents/killercarousel/killercarousel.css",
+		"/Users/abenavid/Documents/killercarousel/index.htm",
+		"/Users/abenavid/Documents/BrewGentlemen.com/3rd party/fancyapps-fancyBox-18d1712/README.md",
+		"/Users/abenavid/Documents/BrewGentlemen.com/products/work-shirt.html",
+		"/Users/abenavid/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/abenavid/Documents/BrewGentlemen.com/products/wordmark-shirt.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/products/stickers.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/products/coasters.html",
+		"/Users/abenavid/Documents/BrewGentlemen.com/products/art-prints.html",
+		"/Users/abenavid/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/abenavid/Documents/brewgentlemen.sublime-project"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/abenavid/Documents/M.BrewGentlemen.com",
+			"/Users/abenavid/Documents/BrewGentlemen.com",
+			"/Users/abenavid/Documents/M.BrewGentlemen.com,/Users/abenavid/Documents/BrewGentlemen.com,/Users/abenavid/Documents/killercarousel",
+			"/Users/abenavid/Documents/BrewGentlemen.com"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rpf",
+			"#",
+			"http://",
+			"fonts/",
+			"http://brewgentlemen.com/",
+			"http://brewgentlemen",
+			"img",
+			"http",
+			"http://",
+			"http:",
+			"js/",
+			"main",
+			"font",
+			"font-awe",
+			".min.map",
+			"jquery",
+			"border",
+			"connect",
+			"about",
+			"pageMap",
+			"window.locat",
+			"header",
+			"connect-inn",
+			"load",
+			"width",
+			"about",
+			"beer",
+			"brewery",
+			"beer",
+			"resize",
+			"connect",
+			"brewery",
+			"footer",
+			"connect",
+			"15",
+			"15px",
+			"connect",
+			"height",
+			"connect",
+			"all",
+			"blog",
+			"connect",
+			"background",
+			"blog",
+			"..",
+			"fonts/fontawesome-webfont",
+			"http://brewgentlemen.com/fonts/fontawesome-webfont",
+			"font-awe",
+			"margin",
+			"border",
+			"test",
+			"beer",
+			"blog",
+			"shop",
+			"#beer",
+			"beer",
+			"beer-page",
+			"65",
+			"beer",
+			"window.inn",
+			"blog",
+			"body-co",
+			"page-area",
+			"65px",
+			"full-page-div",
+			"65px",
+			"before",
+			"center",
+			"padding-bo",
+			"beer-page",
+			"padding-bottom",
+			"page",
+			"load",
+			"overflow",
+			"pageMap",
+			"resetPageHeights",
+			"manualGoTo",
+			"overflow",
+			"scroll",
+			"reset",
+			"resetT",
+			"reset-ta",
+			"current",
+			"keyDown",
+			"hash",
+			"wheel",
+			"scroll",
+			"enable_",
+			"disable_scr",
+			"scroll",
+			"disableSc",
+			"scroll",
+			"about",
+			"padding-",
+			"sep",
+			"beer-rev",
+			"beer-",
+			"beer-summary",
+			"beer-page",
+			"page-area",
+			"width",
+			"page-area",
+			"width",
+			"src=\"img",
+			"src=\"",
+			"about",
+			"alert",
+			"resetPageHeights",
+			"alert",
+			"background",
+			"alert",
+			">\n",
+			"width",
+			"page-area",
+			"width",
+			"cookie",
+			"../",
+			"width",
+			"verification",
+			"hidden",
+			"verification",
+			"z-index",
+			"kc-wrap",
+			"build-an",
+			"splash",
+			"940",
+			"height",
+			"width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../fonts/",
+			"",
+			"src=\"http://brewgentlemen.com/img",
+			"src=\"http://brewgentlemen.com/",
+			"http://",
+			"../brewgentlemen.com/",
+			"about",
+			"",
+			"src=\"../img",
+			"../img",
+			"background-color: #333333;",
+			"addItem",
+			"#424242"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "brewgent-proj.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "brewgent-proj.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main.j",
+				"BrewGentlemen.com/js/main.js"
+			],
+			[
+				"main",
+				"BrewGentlemen.com/css/main.css"
+			],
+			[
+				"fancybox",
+				"BrewGentlemen.com/3rd party/fancyapps-fancyBox-18d1712/README.md"
+			],
+			[
+				"minic",
+				"js/vendor/minicart.js"
+			],
+			[
+				"mini",
+				"js/vendor/minicart.js"
+			],
+			[
+				"minica",
+				"js/vendor/minicart.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,432 @@
+html {
+     overflow-y: scroll;
+}
+
+footer{
+    min-height: 300px;
+    background: #333333;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.footer-logo img {
+    width: 250px;
+}
+
+.footer-logo {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.footer-info {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+
+.footer-info div {
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+
+.footer-info .footer-address {
+    color: #E0E0E0;
+}
+
+@font-face { 
+    font-family: 'Futura Std Medium'; 
+    src: url('../fonts/futura_std_medium.eot'); 
+    src: url('../fonts/futura_std_medium.eot?#iefix') format('embedded-opentype'), url('../fonts/futura_std_medium.svg#Futura Std Medium') format('svg'), url('../fonts/futura_std_medium.woff') format('woff'), url('../fonts/futura_std_medium.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+
+.tipsy-inner {
+    font-family: 'Futura Std Medium', 'Bitter', serif;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Futura Std Medium', 'Bitter', serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.all-caps {
+    text-transform: uppercase;
+    color: rgb(208, 149, 98);
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    padding-right: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #333333;
+    position: fixed;
+    top: 0px; 
+    margin: auto; 
+    z-index: 1000;
+    line-height: 1.4;
+}
+
+body {
+    line-height: 1.4;
+    font-family: 'Futura Std Medium';
+}
+
+nav.header-nav {
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 595px;
+    position: absolute;
+}
+
+nav.header-nav li {
+    font-family: 'Muli', sans-serif;
+    display: inline;
+    float: left;
+    padding-top: 3px;
+}
+
+.header-connect-logos .connect-logo:hover {
+    color: rgb(208, 149, 98);
+}
+
+.header-connect-logos {
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px; /* mirrors main logo in nav */
+}
+
+.connect-logo {
+    width: 30px;
+    padding-left: 10px;
+    float: right;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.header-nav ul li a,
+.header-nav ul li a:visited,
+.header-nav ul li a:link {
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.header-nav ul li a:hover {
+    color: rgb(208, 149, 98) !important;
+}
+
+.header-nav ul li {
+    width: auto !important;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.current-tab a {
+    color: rgb(208, 149, 98) !important;
+}
+
+body {
+    background-color: white;
+}
+
+.header-logo {
+    padding: 12px 30px 0 30px;
+    position: absolute;;
+}
+
+.header-logo a img {
+    height: 40px;
+}
+
+.body-content {
+    margin-top: 65px;
+    background-color: white;
+}
+
+.page-content {
+    margin-top: 0px;
+}
+
+.page-area {
+    text-align: left;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/* 
+    http://css-tricks.com/hash-tag-links-padding/
+*/
+.page:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -65px; 
+  height: 65px; 
+  visibility: hidden; 
+}
+
+.hidden {
+    display: none;
+}
+
+.notification-text {
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#connect-notification .notification-screen {
+    width: 300px;
+    height: 160px;
+    margin-top: -80px; /* set to a negative number 1/2 of your height*/
+    margin-left: -150px; /*s et to a negative number 1/2 of your width*/
+}
+
+#connect-notification .notification-response.yes {
+    width: 120px;
+}
+
+.notification-screen {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 240px;
+    height: 110px;
+    margin-top: -55px; /* set to a negative number 1/2 of your height*/
+    margin-left: -120px; /*s et to a negative number 1/2 of your width*/
+    border: 1px solid black;
+    background-color: white;
+    z-index: 1002;
+}
+
+.notification-background {
+    background-color: rgba(51,51,51,.75); /* Same #333333 but with opacity so it blends with header */
+    z-index: 1001;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+
+}
+
+.notification-answers {
+    text-align: center;
+}
+
+.notification-response {
+    display: block;
+    width: 70px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background: rgb(208, 149, 98);
+    font-family: 'Futura Std Medium', 'Muli', sans-serif;
+}
+
+.notification-response:hover {
+    opacity: .85;
+}
+
+.notification-response.yes {
+    float: left;
+    margin-left: 30px;
+}
+
+.notification-response.no {
+    float: right;
+    margin-right: 30px;
+}
+
+.full-page-div {
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+
+.centered-div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.footer-hours {
+    padding-top: 10px;
+    color: #E0E0E0;
+}
+
+.footer-hours .hours-row {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    padding-top: 3px;
+}
+
+.hours-row .day {
+    width: 150px;
+    display: inline-block;
+    text-align: center; 
+}
+
+.hours-row .time {
+    width: 150px;
+    display: inline-block;
+    text-align: center; 
+}
+
+.middot {
+    padding: 0px 20px 0px 20px;
+}
+
+.footer-signature-text {
+    color: #E0E0E0;
+    padding: 30px 0px 0px 0px;
+    font-size: 16px
+}
+
+.footer-signature {
+    color: #E0E0E0;
+    font-size: 10px
+}
+
+.footer-signature img {
+    width: 200px;
+}
+
+#shop .full-page-div {
+    padding: 100px 0px 100px 0px;
+}
+
+#connect .full-page-div {
+    padding: 200px 0px 200px 0px;
+}
+
+#about .full-page-div {
+    padding: 50px 0px 50px 0px;
+}
+
+#brewery .full-page-div {
+    padding: 70px 0px 70px 0px;
+}
+
+#tap .full-page-div {
+    padding: 40px 0px 40px 0px;
+}
+
+#home .full-page-div {
+    padding: 40px 0px 40px 0px;
+}
+
+#mailing-list-form {
+    display: none;
+    position: absolute;
+    margin: 20px 40px 20px 40px;
+}
+
+.mailing-list-text {
+    text-transform: none;
+    padding: 20px 0px 20px 0px;
+}
+
+.infusion-form {
+    background: white;
+    width: 320px;
+    font-size: 14px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+}
+
+div.infusion-field {
+    height: 70px;
+    width: 300px;
+}
+
+div.infusion-submit {
+    height: 45px;
+    width: 300px;
+}
+
+.infusion-field input {
+    width: 310px;
+    margin-top: 5px;
+}
+
+div.infusion-submit {
+    text-align: left;
+}
+
+.mailing-list-inner {
+    /*width: 400px;*/
+    padding: 30px 30px 30px 30px;
+}
+
+div.infusion-submit input:hover {
+    opacity: .9;
+} 
+
+div.infusion-submit input {
+    background-color: rgb(208, 149, 98);
+    color: white;
+    width: 150px;
+    height: 25px;
+    border: 1px solid #424242;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    text-transform: uppercase;
+}
+
+.required-indicator {
+    color: rgb(208, 149, 98);
+    padding-left: 5px;
+}
+
+a,
+a:visited,
+a:link,
+a:active,
+a:hover  {
+    color: rgb(208, 149, 98);
+    text-decoration: none;
+}
+
+.we-are-open {
+    position: absolute;
+    right: 0;
+    top: 65px;
+}
+
+.we-are-open img {
+    width: 100px;
+}

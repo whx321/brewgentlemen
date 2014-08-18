@@ -1,0 +1,85 @@
+#connect .full-page-div {
+	background: url("../img/connect_background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.connect-box {
+	width: 200px;
+	height: 100px;
+	border: 2px solid rgba(42, 42, 42, .85);
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	cursor: pointer;
+	font-family: 'Futura Std Medium', 'Muli', sans-serif;
+	display: inline-block;
+	margin: 15px 15px 15px 15px;
+
+}
+
+.connect-box-area {
+	max-width: 720px;
+	height: 355px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.connect-box:hover {
+	background-color: rgba(100,100,100,.85);
+	color: rgba(208, 149, 98, .8);
+}
+
+.connect-box:hover i {
+	color: rgba(208, 149, 98, .8);
+}
+
+.connect-box .box-image {
+	font-size: 50px;
+	color: #333333;
+}
+
+.connect-box .box-name {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.connect-box-area a {
+    color: black;
+    text-decoration: none;
+}
+
+.connect-box-area a:hover {
+    color: rgba(208, 149, 98, .8);
+    text-decoration: none;
+}
+
+.address-box {
+	border: 2px solid rgba(42, 42, 42, .85);
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	cursor: pointer;
+	font-family: 'Futura Std Medium', 'Muli', sans-serif;
+	display: block;
+	margin: 15px 15px 0 15px;
+}
+
+.address-box:hover {
+	background-color: rgba(100,100,100,.8);
+	color: rgba(208, 149, 98, .8);
+}
+
+.address-text {
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 10px 0 10px 0;
+}
+
+.connect-footer {
+	height: 200px;
+	width: 100%;
+	background: #333333;;
+}

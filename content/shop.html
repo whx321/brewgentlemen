@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Shop</title>
+        <script type="text/javascript" src="content-js/shop.js"></script>
+        <link rel="stylesheet" href="content-css/shop.css" />
+    </head>
+
+    <body>
+        <div class="tile-list-div">
+
+            <div class="tile-entry">
+                <a class="fancybox workshirt" id="fancybox-workshirt" href="javascript:void(0)">
+                    <img src="img/products/workshirt.jpg" />  
+
+                    <span class="tile-name">
+                        &nbsp;&nbsp;&nbsp;OFFICIAL WORK SHIRT
+                    </span>     
+                </a>            
+            </div>
+
+            <div class="tile-entry">
+                <a class="fancybox wordmark-shirt" id="fancybox-wordmark-shirt" href="javascript:void(0)">
+                    <img src="img/products/tshirt.jpg" /> 
+
+                    <span class="tile-name">
+                        &nbsp;&nbsp;&nbsp;WORDMARK T-SHIRT
+                    </span>   
+                </a>            
+            </div>
+
+            <div class="tile-entry">
+                <a class="fancybox stickers" id="fancybox-stickers" href="javascript:void(0)">
+                    <img src="img/products/sticker.jpg" />
+
+                    <span class="tile-name">
+                        &nbsp;&nbsp;&nbsp;STICKERS
+                    </span>     
+                </a>   
+            </div>
+
+            <div class="tile-entry">
+                <a class="fancybox coasters" id="fancybox-coasters" href="javascript:void(0)">
+                    <img src="img/products/coaster.jpg" />
+                    
+                    <span class="tile-name">
+                        &nbsp;&nbsp;&nbsp;LASER-ETCHED COASTERS
+                    </span>
+                </a>         
+            </div>
+
+            <div class="tile-entry">
+                <a class="fancybox art-prints" id="fancybox-art-prints" href="javascript:void(0)">
+                    <img src="img/products/poster.jpg" />
+
+                    <span class="tile-name">
+                        &nbsp;&nbsp;&nbsp;ART PRINT
+                    </span>       
+                </a>
+            </div>
+
+            <div class="tile-entry">
+                <a href="mailto:info@brewgentlemen.com?subject=Merchandise%20request">
+                    <i class="fa fa-question"></i>
+
+                    <span class="tile-name">
+                        &nbsp;&nbsp;&nbsp;TBD - What do you want?
+                    </span>       
+                </a>
+            </div>
+
+        </div>
+
+        <div id="workshirt-html">
+            <div class="item-page-content">
+                <!-- OFFICIAL WORK SHIRT -->
+                    
+                <div class="item-list-entry">
+                    <div class="item-image">
+                        <img class="workshirt-image" src="img/products/workshirt.jpg" />
+                    </div>
+                    
+                    <div class="item-description-text">
+                        <div class="item-title">OFFICIAL WORK SHIRT</div>
+                        <div class="item-attributes">                
+                            Sharp. Professional. 
+                            <br />
+                            Damned near indestructible.
+                        </div>
+                        
+                        <div class="dot-border-small product-border"></div>
+
+                        <div class="item-specifics">
+                            <span class="item-price">
+                                $60
+                            </span>
+                           
+                       
+                            <a href="javascript:void(0)" onclick="return addItem(1);"><img src="img/add-to-cart.jpg" class="add-item-button"/></a>
+                            
+        <!--
+                            <a href="javascript:void(0)" onclick="return addItem(1);">
+                                <div class="buy-item">
+                                    <i class="fa fa-shopping-cart"></i> BUY
+                                </div>
+                            </a>
+        -->
+                            <div class="custom-select-menu-wrapper">
+                                <div class="custom-select-menu workshirt-size">
+                                    <div class="custom-select-trigger" onclick="return handleCustomSelectTriggerClick('workshirt-size')">
+                                        <a href="javascript:void(0)">L</a>
+                                        <img src="img/dropdown-closed.jpg" />
+                                    </div>
+                                    <div class="custom-select-area">
+                                        <div class="custom-select-option S" onclick="return handleCustomSelectOptionClick(event, 'workshirt-size')"><a href="javascript:void(0)">S</a>
+                                        <img src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option M" onclick="return handleCustomSelectOptionClick(event, 'workshirt-size')"><a href="javascript:void(0)">M</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option L selected" onclick="return handleCustomSelectOptionClick(event, 'workshirt-size')"><a href="javascript:void(0)">L</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option XL" onclick="return handleCustomSelectOptionClick(event, 'workshirt-size')"><a href="javascript:void(0)">XL</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option XXL" onclick="return handleCustomSelectOptionClick(event, 'workshirt-size')"><a href="javascript:void(0)">XXL</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-select-menu-wrapper large">
+                                <div class="custom-select-menu workshirt-color">
+                                    <div class="custom-select-trigger" onclick="return handleCustomSelectTriggerClick('workshirt-color')">
+                                        <a href="javascript:void(0)">CHARCOAL</a>
+                                        <img src="img/dropdown-closed.jpg" />
+                                    </div>
+                                    <div class="custom-select-area">
+                                        <div class="custom-select-option CHARCOAL selected" onclick="return handleCustomSelectOptionClick(event, 'workshirt-color')"><a href="javascript:void(0)">CHARCOAL</a>
+                                        <img src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option BLACK" onclick="return handleCustomSelectOptionClick(event, 'workshirt-color')"><a href="javascript:void(0)">BLACK</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-summary">
+                            <p>
+                            The official workwear of The Brew Gentlemen Beer Company. These high-quality Dickies shirts are durable as all hell and feature our embroidered wordmark for the added functionality of winning friends and influencing people.
+                            </p>
+                        </div>
+                        <div class="item-detail-photo five-line">
+                            <img class="workshirt-image" src="img/products/workshirt_detail.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="wordmark-shirt-html">
+            <div class="item-page-content">
+                <!-- WORDMARK T-SHIRT -->
+                
+                <div class="item-list-entry">
+                    <div class="item-image">
+                        <img class="tshirt-image" src="img/products/tshirt.jpg" />
+                    </div>
+                    
+                    <div class="item-description-text">
+                        <div class="item-title">WORDMARK T-SHIRT</div>
+                        <div class="item-attributes">                
+                            Simplicity is key. It's rather dashing.
+                        </div>
+                        
+                        <div class="dot-border-small product-border"></div>
+                        
+                        <div class="item-specifics">
+                            <span class="item-price">
+                                $20
+                            </span>
+
+                            <a href="javascript:void(0)" onclick="return addItem(2);"><img src="img/add-to-cart.jpg" class="add-item-button"/></a>
+
+                            <div class="custom-select-menu-wrapper">
+                                <div class="custom-select-menu wordmark-shirt-size">
+                                    <div class="custom-select-trigger" onclick="return handleCustomSelectTriggerClick('wordmark-shirt-size')">
+                                        <a href="javascript:void(0)">L</a>
+                                        <img src="img/dropdown-closed.jpg" />
+                                    </div>
+                                    <div class="custom-select-area">
+                                        <div class="custom-select-option S" onclick="return handleCustomSelectOptionClick(event, 'wordmark-shirt-size')"><a href="javascript:void(0)">S</a>
+                                        <img src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option M" onclick="return handleCustomSelectOptionClick(event, 'wordmark-shirt-size')"><a href="javascript:void(0)">M</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option L selected" onclick="return handleCustomSelectOptionClick(event, 'wordmark-shirt-size')"><a href="javascript:void(0)">L</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option XL" onclick="return handleCustomSelectOptionClick(event, 'wordmark-shirt-size')"><a href="javascript:void(0)">XL</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option XXL" onclick="return handleCustomSelectOptionClick(event, 'wordmark-shirt-size')"><a href="javascript:void(0)">XXL</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="custom-select-menu-wrapper large">
+                                <div class="custom-select-menu wordmark-shirt-style">
+                                    <div class="custom-select-trigger" onclick="return handleCustomSelectTriggerClick('wordmark-shirt-style')">
+                                        <a href="javascript:void(0)">CREW NECK</a>
+                                        <img src="img/dropdown-closed.jpg" />
+                                    </div>
+                                    <div class="custom-select-area">
+                                        <div class="custom-select-option CREW-NECK selected" onclick="return handleCustomSelectOptionClick(event, 'wordmark-shirt-style')"><a href="javascript:void(0)">CREW NECK</a>
+                                        <img src="img/dropdown-open.jpg" />
+                                        </div>
+                                        <div class="custom-select-option V-NECK" onclick="return handleCustomSelectOptionClick(event, 'wordmark-shirt-style')"><a href="javascript:void(0)">V-NECK</a>
+                                        <img class="invisible" src="img/dropdown-open.jpg" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-summary">
+                            <p>
+                            According to the principle known as Occam's Razor, the simplest solution to a problem is usually the correct one. If your problem is a lack of Brew Gentlemen swag, the solution is clearly our ever-so-straightforward screen-printed BGBC wordmark t-shirt. 100% cotton, slim fit, American Apparel.
+                            </p>
+                            <div class="item-detail-photo six-line">
+                                <img class="workshirt-image" src="img/products/tshirt_detail.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="stickers-html">
+            <div class="item-page-content">
+                <!-- STICKERS -->
+                
+                <div class="item-list-entry">
+                    <div class="item-image">
+                        <img class="stickers-image" src="img/products/sticker.jpg" />
+                    </div>
+                    
+                    <div class="item-description-text">
+                        <div class="item-title">STICKERS</div>
+                        <div class="item-attributes">                
+                            Aesthetics on one side, 
+                            <br />
+                            utility on the other.
+                        </div>
+
+                        <div class="dot-border-small product-border"></div>
+
+                        <div class="item-specifics">
+                            <span class="item-price">
+                                $4
+                            </span>
+                            
+                            <a href="javascript:void(0)" onclick="return addItem(3);"><img src="img/add-to-cart.jpg" class="add-item-button"/></a>
+                        </div>
+
+                        <div class="item-summary">
+                            <p>
+                            These stickers are not only an excellent decorative tool, but also an efficient substitute for tape in case of an emergency. UV-coated for added durability and fade-proofing. Contains two 6" x 2.25"  stickers.
+                            </p>
+                        </div>
+                        <div class="item-detail-photo four-line">
+                            <img class="workshirt-image" src="img/products/sticker_detail.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="coasters-html">
+            <div class="item-page-content">
+                <!-- LASER-ETCHED COASTERS -->
+                
+                <div class="item-list-entry">
+                    <div class="item-image">
+                        <img class="coasters-image" src="img/products/coaster.jpg" />
+                    </div>
+                    
+                    <div class="item-description-text">
+                        <div class="item-title">LASER-ETCHED COASTERS</div>
+                        <div class="item-attributes">                
+                            Made with 100% real lasers.
+                        </div>
+
+                        <div class="dot-border-small product-border"></div>
+
+                        <div class="item-specifics">
+                            <span class="item-price">
+                                $12
+                            </span>
+                            
+                             <a href="javascript:void(0)" onclick="return addItem(4);"><img src="img/add-to-cart.jpg" class="add-item-button"/></a>
+                        </div>
+
+                        <div class="item-summary">
+                            <p>
+                            After a few high-gravity brewskis, it's easy to forget that your condensation-laden glassware is perspiring all over your hardwood coffee table. Prevent this unappreciated act of moisture vandalism with a set of BGBC wordmark coasters. Contains a set of four 3.5" x 3.5" laser-etched wooden coasters.
+                            </p>
+                            <div class="item-detail-photo six-line">
+                                <img class="workshirt-image" src="img/products/coaster_detail.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="art-prints-html">
+            <div class="item-page-content">
+                <!-- ART PRINTS -->
+                
+                <div class="item-list-entry">
+                    <div class="item-image">
+                        <img class="art-image" src="img/products/poster.jpg" />
+                    </div>
+                    
+                    <div class="item-description-text">
+                        <div class="item-title">ART PRINT</div>
+                        <div class="item-attributes">                
+                            Sometimes the best things in life 
+                            <br />
+                            are two-dimensional.
+                        </div>
+
+                        <div class="dot-border-small product-border"></div>
+
+                        <div class="item-specifics">
+                            <span class="item-price">
+                                $16
+                            </span>
+                            
+                           <a href="javascript:void(0)" onclick="return addItem(5);"><img src="img/add-to-cart.jpg" class="add-item-button"/></a>
+                        </div>
+
+                        <div class="item-summary">
+                            <p>
+                            A 11" x 17" poster print of the Braddock skyline from the Rankin Bridge; a pastoral landscape of the heart of industrial America. Illustrated and signed by BGBC co-founder Asa Foster.
+                            </p>
+                        </div>
+                        <div class="item-detail-photo four-line">
+                            <img class="workshirt-image" src="img/products/poster_detail.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+

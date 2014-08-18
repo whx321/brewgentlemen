@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>The Brew Gentlemen Beer Company</title>
+        
+        <meta name="description" content="Learn more about The Brew Gentlemen Beer Company - A microbrewery located in the historic steel town of Braddock, PA producing high quality craft beer.">
+        <meta name="keywords" content="Braddock, Pittsburgh, Pennsylvania, Craft beer, Brew gentlemen, Brew gentleman, brewery, beer, growlers, tap room, bar, home brewing, brewery tour, chai beer, General Braddock's, White Sky, Business Casual, Matt Katase, Asa Foster, drink">
+
+       <!--  <meta name="viewport" content="width=device-width"> -->
+        <meta name="viewport" content="width=1080" />
+
+        <script src="js/vendor/jquery-1.9.0.min.js"></script> 
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1PxCkr-wbkJ9SYPt8-5xaxJeXhmNJ_EQ&v=3.exp&sensor=false"></script>
+        <link href='http://fonts.googleapis.com/css?family=Questrial:400|Bitter:400,700|Muli:300,400' type='text/css'>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" type="image/png" href="favicon_57x57.png" />
+        <link rel="icon" type="image/png" href="favicon_72x72.png" />
+        <link rel="icon" type="image/png" href="favicon_114x114.png" />
+        <link rel="icon" type="image/png" href="favicon_144x144.png" />
+        <link rel="icon" type="image/png" href="favicon_full.png" />
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/tipsy.css" />
+        
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="content-css/main.css" />
+
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="js/vendor/moment.min.js"></script>
+        <script type="text/javascript" src="js/vendor/moment-timezone.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.cookie.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.tipsy.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.fancybox.js"></script>
+        <script type="text/javascript" src="content-js/main.js" defer="defer"></script>
+        
+    </head>
+    
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div class="header-logo nav-tab">
+                <a href="#home" ><img src="img/white-logo.png" /></a>
+            </div>
+            
+            <nav class="header-nav">
+                <ul>
+                    <li class="home-tab nav-tab"><a href="#home">HOME</a></li>
+                    <li class="tap-tab nav-tab"><a href="#tap">TAP</a></li>
+                    <li class="brewery-tab nav-tab"><a href="#brewery">BREWERY</a></li>
+                    <li class="about-tab nav-tab"><a href="#about">ABOUT</a></li>
+                    <li class="shop-tab nav-tab"><a href="#shop">SHOP</a></li>
+                    <li class="connect-tab nav-tab"><a href="#connect">CONNECT</a></li>
+                </ul>
+            </nav>
+
+            <div class="we-are-open hidden">
+                <img src="img/we-are-open.gif" />
+            </div>
+
+            <div class="header-connect-logos">
+                
+                <a href="http://goo.gl/tD4BLF" target="_blank">
+                    <div class="connect-logo text-logo">
+                        Blog
+                    </div>
+                </a>
+
+                <a href="http://goo.gl/FQMRJn" target="_blank">
+                    <div class="connect-logo">
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </a>
+
+                <a href="http://goo.gl/j9NCnG" target="_blank">
+                    <div class="connect-logo">
+                        <i class="fa fa-facebook"></i>
+                    </div>
+                </a>
+
+                <a href="http://goo.gl/Xc1UYK" target="_blank">
+                    <div class="connect-logo">
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </a>
+
+            </div>
+        </header>
+
+        <!-- Verification widget -->
+        <div id="age-notification" class="notification-background hidden">
+            <div class="notification-screen">
+                <div class="notification-text">
+                    Are you 21 or older?
+                </div>
+
+                <div class="notification-answers">
+                    <div class="notification-response yes">
+                        YES
+                    </div>
+                    <div class="notification-response no">
+                        NO
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter popup widget -->
+        <div id="connect-notification" class="notification-background hidden">
+            <div class="notification-screen">
+                <div class="notification-text">
+                    <strong>JOIN OUR EMAIL LIST</strong>
+                    <br />
+                    For occasional updates, news and promotions
+                </div>
+
+                <div class="notification-answers">
+                    <div class="notification-response yes stay-updated">
+                        STAY UPDATED
+                    </div>
+                    <div class="notification-response no">
+                        CANCEL
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mailing list signup widget -->
+        <div id="mailing-list-form">
+            <div class="mailing-list-inner">
+                <form accept-charset="UTF-8" action="https://bp195.infusionsoft.com/app/form/process/a4d63391f17d69b6b87fe8186dfc84c8" class="infusion-form" method="POST">
+                    <input name="inf_form_xid" type="hidden" value="a4d63391f17d69b6b87fe8186dfc84c8" />
+                    <input name="inf_form_name" type="hidden" value="Newsletter Opt-In" />
+                    <input name="infusionsoft_version" type="hidden" value="1.31.0.38" />
+
+                    <div class="mailing-list-text">
+                        If you would like to receive sporadic email updates and newsletters, please sign up below. Thanks, family!
+                    </div>
+
+                    <div class="infusion-field">
+                        <label for="inf_field_FirstName">First Name</label><span class="required-indicator">*</span>
+                        <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
+                    </div>
+
+                    <div class="infusion-field">
+                        <label for="inf_field_LastName">Last Name</label><span class="required-indicator">*</span>
+                        <input class="infusion-field-input-container" id="inf_field_LastName" name="inf_field_LastName" type="text" />
+                    </div>
+
+                    <div class="infusion-field">
+                        <label for="inf_field_Email">Email</label><span class="required-indicator">*</span>
+                        <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" />
+                    </div>
+
+                    <div class="infusion-submit">
+                        <input type="submit" value="SUBSCRIBE" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="body-content">
+
+            <div id="home" class="page home-page hidden">
+                <div class="full-page-div">
+                    <div class="page-area">
+                   </div>
+                </div>
+            </div>
+
+            <div id="about" class="page about-page hidden">
+                <div class="full-page-div">
+                   <div class="page-area">
+                   </div>
+                </div>
+            </div>
+            
+            <div id="brewery" class="page brewery-page hidden">
+                <div class="full-page-div">
+                   <div class="page-area">
+                   </div>
+                </div>
+            </div>
+
+            <div id="shop" class="page shop-page hidden">
+                <div class="full-page-div">
+                   <div class="page-area">
+                   </div>
+                </div>
+            </div>
+
+            <div id="connect" class="page connect-page hidden">
+                <div class="full-page-div">
+                    <div class="page-area">
+                    </div>
+                </div>
+            </div>
+
+            <div id="rpf" class="page rpf-page hidden">
+                <div class="full-page-div">
+                    <div class="page-area">
+                    </div>
+                </div>
+            </div>
+
+            <div id="tap" class="page tap-page hidden">
+                <div class="full-page-div">
+                   <div class="page-area">
+                   </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <footer>
+            <div class="footer-info">
+                
+                <div class="footer-address">
+                    512 Braddock Avenue <span class="middot">&middot;</span> Braddock, PA 15104 <span class="middot">&middot;</span> 412.871.5075
+                </div>
+
+                <div class="footer-hours">
+                    <div class="hours-row">
+                        <span class="day">MONDAY</span>
+                        <span class="time">CLOSED</span>
+                    </div>
+                    <div class="hours-row">
+                        <span class="day">TUESDAY</span>
+                        <span class="time">CLOSED</span>
+                    </div>
+                    <div class="hours-row">
+                        <span class="day">WEDNESDAY</span>
+                        <span class="time">4 PM - 10 PM</span>
+                    </div>
+                    <div class="hours-row">
+                        <span class="day">THURSDAY</span>
+                        <span class="time">4 PM - 10 PM</span>
+                    </div>
+                    <div class="hours-row">
+                        <span class="day">FRIDAY</span>
+                        <span class="time">4 PM - 11 PM</span>
+                    </div>
+                    <div class="hours-row">
+                        <span class="day">SATURDAY</span>
+                        <span class="time">4 PM - 11 PM</span>
+                    </div>
+                    <div class="hours-row">
+                        <span class="day">SUNDAY</span>
+                        <span class="time">CLOSED</span>
+                    </div> 
+                </div>
+
+                <div class="footer-signature-text">
+                    THIS WEBSITE WAS DESIGNED AND BUILT IN-HOUSE BY
+                </div>
+
+                <div class="footer-logo">
+                    <img src="img/white-logo.png" /></a>
+                </div>
+
+                <div class="footer-signature">
+                    <img src="img/zo-signature.png" />
+                    <!-- ALONZO BENAVIDES -->
+                </div>
+            </div>
+        </footer>
+
+          <!--  MUST BE DECLARED BOTTOM OF BODY!! -->
+        <script type="text/javascript" src="js/vendor/minicart.js"></script>
+        <script type="text/javascript" >
+                     //render minicart
+                PAYPAL.apps.MiniCart.render({
+                    strings: {
+                        button: "CHECK OUT",  
+                        subtotal: "TOTAL: ",
+                        shipping: "Shipping & tax included",
+                        processing: "PROCESSING..."   
+                    },
+                    assetURL: "",
+                    events: {
+                        onCheckout: function() { 
+                                $(document).ready(function(){
+                                    //$('#PPMiniCart form p input').addClass("processing");
+                                });
+                            }
+                    }
+                });
+        </script>
+
+        <!-- Begin Inspectlet Embed Code -->
+        <script type="text/javascript" id="inspectletjs">
+            // window.__insp = window.__insp || [];
+            // __insp.push(['wid', 1384775635]);
+            // (function() {
+            //     function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+            //     if (window.attachEvent){
+            //         window.attachEvent('onload', __ldinsp);
+            //     }else{
+            //         window.addEventListener('load', __ldinsp, false);
+            //     }
+            // })();
+        </script>
+        <!-- End Inspectlet Embed Code -->
+
+        <!-- Google Analytics -->
+        <script type="text/javascript">
+
+          // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          // ga('create', 'UA-51155935-1', 'brewgentlemen.com');
+          // ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

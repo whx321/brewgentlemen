@@ -1,0 +1,168 @@
+.flagship-list {
+	color: white;
+}
+
+.beer-label-image {
+	float: left;
+	width: 220px;
+	text-align: center;
+}
+
+.beer-label-image img {
+	width: 140px;
+}
+
+.beer-summary-container.rpf-container {
+	height: 515px;
+}
+
+.beer-summary-container {
+	padding: 10px;
+	min-height: 225px;
+	background-color: rgb(55,55,55);
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	width: 920px;
+	margin: 20px 0px 20px 0px;
+}
+
+.label-info {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.label-info {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.separator {
+	background:url("../img/vertical-dots-white.png") no-repeat center center;
+	height: 209px;
+	width: 20px;
+	background-size: 34%;
+	float: left;
+}
+
+.beer-info-area {
+	width: 625px;
+	float: right;
+}
+
+div.beer-attributes {
+	font-family: 'Futura Std Medium', 'Bitter', serif;
+	font-style: normal;
+	font-size: 15px;     
+	padding-top: 0px;
+	padding-bottom: 0px;
+	letter-spacing: normal;
+}
+
+div.beer-summary {
+    font-size: 15px;   
+	padding-top: 10px;    
+	letter-spacing: normal;
+    padding-bottom: 0px;
+}
+
+div.beer-review {
+    font-size: 15px;   
+	padding-top: 10px;    
+	letter-spacing: normal;
+    padding-bottom: 0px;
+}
+
+.beer-review .rpf-list {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.beer-review .rpf-list-header {
+    float: left;
+    background: white;
+    padding-right: 45px;
+}
+
+.beer-review .rpf-list-header img {
+    height: 300px;    
+}
+
+.beer-review .rpf-list-entry {
+    border-bottom: 1px solid white;
+    padding: 5px 0 5px 0;
+}
+
+.beer-review .rpf-list-entry  span.rpf-name{
+    width: 90px;
+    display: inline-block;
+}
+
+.beer-review .rpf-list-entry  span.rpf-type{
+    width: 200px;
+    display: inline-block;
+}
+
+.beer-review .rpf-list-entry  span.rpf-abv{
+    width: 90px;
+    display: inline-block;
+}
+
+.beer-summary-container:hover {
+	cursor: pointer;
+	color: rgba(208, 149, 98, .8);
+}
+
+.beer-summary-container .beer-label-image {
+	width: 220px;
+	height: 200px;
+}
+
+.beer-summary-container .general-braddocks .beer-label-image {
+	background: url("../img/general-braddocks-label.png") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container:hover .general-braddocks .beer-label-image {
+	background: url("../img/general-braddocks-label-gif.gif") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container .white-sky .beer-label-image {
+	background: url("../img/white-sky-label.png") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container:hover .white-sky .beer-label-image {
+	background: url("../img/white-sky-label-gif.gif") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container .business-casual .beer-label-image {
+	background: url("../img/business-casual-label.png") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container:hover .business-casual .beer-label-image {
+	background: url("../img/business-casual-label-gif.gif") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container .build-and-destroy .beer-label-image {
+	background: url("../img/build-and-destroy-label.png") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container:hover .build-and-destroy .beer-label-image {
+	background: url("../img/build-and-destroy-label-gif.gif") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container .rapid-prototype-factory .beer-label-image {
+	background: url("../img/rapid-prototype-factory-label.png") no-repeat center;
+	background-size: 140px 190px;
+}
+
+.beer-summary-container:hover .rapid-prototype-factory .beer-label-image {
+	background: url("../img/rapid-prototype-factory-label-gif.gif") no-repeat center;
+	background-size: 140px 190px;
+}

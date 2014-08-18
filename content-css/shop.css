@@ -1,0 +1,444 @@
+body {
+	margin: 0px;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.fancybox-overlay {
+	background: none;
+}
+
+.custom-select-menu-wrapper {
+    position: absolute;
+    left: 530px;
+}
+
+.custom-select-menu {
+    color: white;
+    background: rgb(42, 42, 42);
+    text-align: center;
+    list-style-position:inside;
+    margin-top: 4px;
+    font-size: 12px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    text-transform: uppercase;
+    width: 70px;
+    height: 25px;
+    z-index: 1000;
+}
+
+.custom-select-menu-wrapper.large .custom-select-menu {
+    width: 125px;
+}
+
+.custom-select-menu-wrapper.large .custom-select-area div {
+    width: 125px;
+}
+
+.custom-select-menu-wrapper.large .custom-select-trigger {
+    width: 125px;
+}
+
+.custom-select-menu-wrapper.large {
+    left: 610px;
+}
+
+.custom-select-menu:hover {
+    color: white;
+    background: rgb(100, 100, 100);
+    text-align: center;
+}
+
+.custom-select-area {
+    display: none;
+
+}
+
+.custom-select-option.selected {
+    background: rgb(100, 100, 100);
+}
+
+.custom-select-area div {
+    color: white;
+    background: rgb(42, 42, 42);   
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    height: 25px;
+    width: 70px;
+    z-index: 1000;
+    color: white;
+    font-size: 16px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+}
+
+.custom-select-area div a {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-select-area div:hover {
+    color: white;
+    background: rgb(100, 100, 100);
+    text-align: center;
+}
+
+.custom-select-trigger img,
+.custom-select-option img {
+    width: 25px;
+    float: right;
+}
+
+.custom-select-trigger {
+    cursor: pointer;
+    height: 25px;
+    background: rgb(42, 42, 42);
+}
+
+.custom-select-trigger:hover {
+    cursor: pointer;
+    background: rgb(100, 100, 100);
+}
+
+#PPMiniCart form {
+	margin-top: 65px;
+	z-index: 200;
+}
+
+#PPMiniCart form p {
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif; 
+}
+
+#PPMiniCart form p span {
+    font-weight: normal;
+}
+
+#PPMiniCart form p span.shipping {
+    font-family: 'Futura Std Medium', 'Bitter', serif;
+}
+
+#PPMiniCart form p input {
+    width: 100px;
+    margin-right: 1px;
+    margin-top: 2px;
+    height: 22px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    color: white;
+    background-color: rgb(208, 149, 98);
+}
+
+#PPMiniCart form p input:active {
+    margin-right: 0px;
+    margin-top: 3px;
+}
+
+#PPMiniCart form p input:hover {
+    opacity: .9;
+}
+
+.custom-select-trigger a,
+.custom-select-option a {
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 26px;
+    background: none;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+}
+
+.custom-select-trigger a:link {
+    text-decoration: none;
+}
+.custom-select-trigger a:hover {
+    text-decoration: none;
+}
+.custom-select-trigger a:active {
+    text-decoration: none;
+}
+.custom-select-trigger a:visited {
+    text-decoration: none;
+}
+
+.custom-select-trigger:hover {
+    text-decoration: none;
+}
+
+.tile-list-div {
+}
+
+.tile-entry:hover {
+    cursor: pointer;
+}
+
+.tile-entry:hover .tile-name {
+    color: rgba(208, 149, 98, .8);
+    background: rgba(100, 100, 100, .85);
+}
+
+.tile-entry {
+    float: left;
+    width: 290px;
+    height: 290px;
+    position: relative; 
+    margin: 5px;
+}
+
+.tile-entry img {
+    width: 100%;
+    height: 100%;
+}
+
+.tile-name {
+    background: rgba(42, 42, 42, .85);
+    color: white;
+    width: 100%;
+    height: 25px;
+    position: absolute; 
+    top: 261px; 
+    left: 0; 
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.button {
+    height: 25px;
+}
+
+#workshirt-html, #wordmark-shirt-html, #stickers-html, #coasters-html, #art-prints-html {
+    display: none;
+}
+
+#PPMiniCart p {
+    height: 35px;
+}
+
+#PPMiniCart p .shipping {
+    padding-top: 2px;
+}
+
+.add-item-button:hover {
+    opacity: .9;
+}
+
+.add-item-button:active {
+    margin-right: 0px;
+    margin-top: 5px;
+    opacity: .9;
+}
+
+.view-cart-button:hover {
+    margin-right: 4px;
+    -webkit-box-shadow: 0 2px 1px -1px #424242;
+    box-shadow: 0 2px 1px -1px #424242;
+}
+
+.item-quantity input {
+    width: 30px;
+}
+
+.item-quantity {
+    margin-top: 6px;
+    font-family: 'Futura Std Medium', 'Bitter', serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    float: left;
+    height: 25px;
+}
+
+.item-page-content {
+    padding: 10px;
+    width: 900px;
+    height: 450px;
+    -webkit-border-radius: 5px; /* for Webkit-Browsers */
+    border-radius: 5px; /* regular */
+    background: #333333;
+}
+
+.item-list-entry {
+    margin: 15px;
+    height: 88%;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 5px; /* for Webkit-Browsers */
+    border-radius: 5px; /* regular */
+}
+
+
+.item-quantity input {
+    margin-left: 20px;
+    height: 15px;
+}
+
+.item-options.sizes {
+    width: 45px;
+}
+
+.item-options {
+    text-align: center;
+    margin-right: 15px;
+    float: right;
+    margin-top: 4px;
+    background-color: #333333;
+    color: white;
+    font-size: 12px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    text-transform: uppercase;
+    width: 150px;
+    height: 25px;
+}
+
+.view-cart-button {
+    float: right;
+    margin-top: 16px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.item-options option {
+    text-align: center;
+}
+
+.buy-item {
+	margin-top: 4px;
+    float: right;
+    height: 25px;
+    margin-right: 1px;
+    color: white;
+    background: rgb(208, 149, 98);
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+}
+
+.add-item-button {
+    margin-top: 4px;
+    float: right;
+    height: 25px;
+    margin-right: 1px;
+}
+
+.item-specifics {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+.item-description-text {
+    padding-left: 395px;
+}
+
+.item-attributes {
+    text-transform: uppercase;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 11px;
+    line-height: 15px;
+}
+
+.fancybox-skin {
+    background: #333333 !important;
+    color: black !important;
+}
+
+.item-image img
+ {
+    float: left;
+    padding-right: 15px;
+    width: 395px;
+    height: auto;
+}
+
+.item-detail-photo img
+ {
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: -20px;
+	left: -20px;
+}
+
+div.dot-border-small {
+	margin-left: 15px;
+	background-image: url('../img/dots.png');
+    background-repeat: repeat-x;
+    height: 4px;
+}
+
+.product-border {
+    width: 440px;
+}
+
+.four-line
+ {
+    bottom: -22px;
+}
+
+.five-line
+ {
+    bottom: -6px;
+}
+
+.six-line
+ {
+    bottom: -5px;
+}
+
+.item-detail-photo {
+    overflow: hidden;
+    height: 163px;
+    position: relative;
+}
+
+.tile-entry i {
+	font-size: 150px;
+	line-height: 290px;
+	height: 290px;
+	width: 290px;
+	color: white;
+	background: #333333;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.tile-entry i:hover {
+    color: rgba(208, 149, 98, .8);
+}
+
+.item-list-div {
+    padding-right: 50px;
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-title {
+    font-size: 26px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    color: rgb(208, 149, 98);
+}
+
+.item-price {
+    font-size: 26px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    color: black;
+    float: left;
+}
+
+.add-cart-temp {
+    background-color: rgb(208, 149, 98);
+    color: white;
+    font-size: 14px;
+    font-family: 'Futura Std Medium', 'questrial', 'Muli', sans-serif;
+    text-transform: uppercase;
+    width: 150px;
+    height: 25px;
+    border: 1px dotted #424242;
+    -webkit-border-radius: 5px;
+	border-radius: 5px;
+}

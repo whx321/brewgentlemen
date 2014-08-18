@@ -1,0 +1,39 @@
+#rpf .full-page-div {
+    background: white;
+}
+
+.rpf-list {
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.rpf-list-header {
+    float: left;
+    background: white;
+    padding-right: 45px;
+}
+
+.rpf-list-header img {
+    height: 300px;    
+}
+
+.rpf-list-entry {
+    border-bottom: 1px solid black;
+    padding: 5px 0 5px 0;
+}
+
+.rpf-list-entry  span.rpf-name{
+    width: 90px;
+    display: inline-block;
+}
+
+.rpf-list-entry  span.rpf-type{
+    width: 200px;
+    display: inline-block;
+}
+
+.rpf-list-entry  span.rpf-abv{
+    width: 90px;
+    display: inline-block;
+}

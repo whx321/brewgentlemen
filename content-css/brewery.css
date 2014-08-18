@@ -1,0 +1,45 @@
+body {
+	margin: 0px;
+}
+
+div.brewery-image img {
+	width: 100%;
+}
+
+#brewery-map {
+	margin: 0;
+	padding: 0;
+	height: 300px;
+	width: 450px;
+	float: left;
+}
+
+.brewery-image{
+	padding-bottom: 10px;
+}
+
+.brewery-text {
+	font-family: 'Futura Std Medium', 'Bitter', serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: right;
+	width: 450px;
+	line-height: 1.75em;
+}
+
+.marker-box {
+    height: 105px;
+    font-family: 'Futura Std Medium', 'Bitter', serif;
+}
+
+.marker-title {
+    color: rgb(208, 149, 98);
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.marker-footer {
+    padding-top: 5px;
+}
